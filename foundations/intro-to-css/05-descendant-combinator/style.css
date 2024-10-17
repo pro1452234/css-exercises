@@ -1,0 +1,11 @@
+
+/* spacing between period and the r shows that its a decendent eg: space = -> */
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+.text {
+    color: black;
+}
