@@ -7,21 +7,41 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  border: 8px solid #fff;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 8px;
+  font-size: 18px;
 }
 
 .content {
   background: #e3f4ff;
+  border-bottom: 8px solid #fff;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  text-align: center;
 }
 
 button {
   background: white;
+  flex-direction: row;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   border: 1px solid #eee;
+  display: block;
+  /* margin: (top and bottom margin) (sides) -- more simpler and shorter lines of code
+  auto is automatically centers the button with the text */
+  margin: 0 auto;
+  
 }
