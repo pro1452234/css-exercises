@@ -35,6 +35,10 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  height: 40px;
+  font-size: small;
+  font-weight: bold;
+
 }
 
 a {
@@ -45,4 +49,25 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 15px;
+  
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 4px;
+}
+.left-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
 }
